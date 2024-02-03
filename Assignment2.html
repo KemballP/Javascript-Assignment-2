@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="display-value1"></p>
+    <p id="display-value2"></p>
+    <p id="display-value3"></p>
+    <p id="display-value4"></p>
+    <p id="display-value5"></p>
+    <p id="display-value6"></p>
+    <script id="coding-task-1">
+        var firstName = "Moe"; var lastName = "Adam"; var age = 52;
+    </script>
+    <script id="coding-task-2">
+        var firstname = "Mike";
+        var lastname = "Douglas";
+        var fullname = firstname + " " + lastname
+        alert(fullname)
+    </script>
+    <script id="coding-task-3">
+        var total = 0;
+        function addMe(x) {
+            return x+total;
+        };
+        document.getElementById("display-value1").innerHTML = addMe(1);
+        document.getElementById("display-value2").innerHTML = addMe(2);
+        document.getElementById("display-value3").innerHTML = addMe(3);
+    </script>
+    <script id="coding-task-4">
+        function calculateCatAge(age){
+            return "Your cat is "+ age*7 +" years old in cat years!";
+        };
+        document.getElementById("display-value4").innerHTML = calculateCatAge(3);
+        document.getElementById("display-value5").innerHTML = calculateCatAge(5);
+        document.getElementById("display-value6").innerHTML = calculateCatAge(8);
+    </script>
+</body>
+</html>
